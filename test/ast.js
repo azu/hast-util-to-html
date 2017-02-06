@@ -1,5 +1,5 @@
 // MIT © 2017 azu
-"use strict";
+'use strict';
 var remark = require('remark');
 var toHAST = require('mdast-util-to-hast');
 var to = require('..');
