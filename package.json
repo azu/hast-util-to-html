@@ -50,7 +50,7 @@
     "build-md": "remark . --quiet --frail --output",
     "build-bundle": "browserify index.js --bare -s hastUtilToHTML > hast-util-to-html.js",
     "build-mangle": "bundle-collapser hast-util-to-html.js | esmangle > hast-util-to-html.min.js",
-    "build": "npm run build-md && npm run build-bundle && npm run build-mangle",
+    "build": "npm run build-bundle && npm run build-mangle",
     "lint": "xo",
     "test-api": "node test",
     "test-coverage": "nyc --reporter lcov tape test",
