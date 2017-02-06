@@ -1,5 +1,5 @@
 {
-  "name": "hast-util-to-html",
+  "name": "@azu/hast-util-to-html",
   "version": "3.0.0",
   "description": "Transform HAST to HTML",
   "license": "MIT",
